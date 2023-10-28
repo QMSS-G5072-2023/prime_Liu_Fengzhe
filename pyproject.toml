@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "prime_fl2635"
+version = "0.1.1"
+description = "a package for hw7"
+authors = ["Fengzhe Liu"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pytest = ">=6.0.0"
+sphinx = "^7.2.6"
+sphinx-rtd-theme = "^1.3.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
